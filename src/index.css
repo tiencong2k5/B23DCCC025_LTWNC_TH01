@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  font-family: "DM Sans", "Trebuchet MS", sans-serif;
+  color: #1c2936;
+  background: #edf4fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #1c2936;
+  --muted: #71808d;
+  --line: #d9e1e8;
+  --blue: #1478b8;
+  --blue-dark: #0b639d;
+  --blue-pale: #eaf4fb;
+  --green: #188657;
+  --red: #c84343;
+  --amber: #b78328;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #8bc8ed;
+  outline-offset: 2px;
+}
